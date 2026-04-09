@@ -1,0 +1,73 @@
+*{
+    background-color: black;
+    box-sizing: border-box;
+}
+
+h1, p{
+    color: white;
+}
+
+#Encabezado{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#Encabezado img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+#Titulo{
+    flex: 1;
+    text-align: center;
+}
+
+#Imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#Imagenes img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#General{
+    gap: 70px;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+#General section{
+    flex: 1;
+}
+
+.Servicios{
+    text-align: center;
+    font-size: 2rem;
+}
+
+#Lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+}
+
+.carta {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+}
+
+strong{
+    font-size: 20px;
+}
